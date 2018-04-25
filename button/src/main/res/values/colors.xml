@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toggle_slide_btn_blue">#0097E0</color>
+    <color name="toggle_slide_btn_white">#ffffff</color>
+    <color name="toggle_slide_btn_grey_bit">#CCCCCC</color>
+</resources>

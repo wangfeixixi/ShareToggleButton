@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleSlideButton">
+        <!-- 开关背景图片的属性, 引用的是R.drawable.xx. -->
+        <attr name="switchTrueBackgroundResource" format="reference" />
+
+        <attr name="switchFalseBackgroundResource" format="reference" />
+
+        <!-- 开关滑动块图片的属性, 引用的是R.drawable.xx. -->
+        <attr name="slideButtonBackgroundResource" format="reference" />
+
+        <!-- 开关当前的状态的属性, true 打开, false 关闭 -->
+        <attr name="currentState" format="boolean" />
+    </declare-styleable>
+</resources>
