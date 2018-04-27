@@ -73,6 +73,10 @@ public class ToggleSlideButton extends View {
         invalidate();
     }
 
+    public boolean getCurrentState() {
+        return this.currentState;
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
